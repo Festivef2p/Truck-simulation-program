@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Truck And Cargo">
+      <UniqueIdentifier>{d64a167a-a51d-4f61-9875-e279d88bf7d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADTs">
+      <UniqueIdentifier>{491014fd-b061-4545-8836-da608e33fe9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{3a67a258-1fac-4f21-a4c0-da4b53935757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Company">
+      <UniqueIdentifier>{ff7fa6cf-82fc-49e5-9c3f-e4c7cd3ab0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{a4795b7e-a30b-4534-af90-5e5687033f98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkedList.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityNode.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="Cargo.h">
+      <Filter>Truck And Cargo</Filter>
+    </ClInclude>
+    <ClInclude Include="Truck.h">
+      <Filter>Truck And Cargo</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="PreparationEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="PromptEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="CancelEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Company.h">
+      <Filter>Company</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Testmain.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="PreparationEvent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="PromptEvent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Truck.cpp">
+      <Filter>Truck And Cargo</Filter>
+    </ClCompile>
+    <ClCompile Include="Cargo.cpp">
+      <Filter>Truck And Cargo</Filter>
+    </ClCompile>
+    <ClCompile Include="CancelEvent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Company.cpp">
+      <Filter>Company</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
